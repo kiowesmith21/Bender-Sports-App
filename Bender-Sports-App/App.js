@@ -11,7 +11,6 @@ import PostPage from './components/postPage/postPage';
 import SportsPage from './components/sportsPage/sportsPage';
 import ProfilePage from './components/profilePage/profilePage';
 
-
 export default class App extends Component {
   render() {
     return <AppContainer/>;
@@ -38,7 +37,7 @@ const AppNavigator = createBottomTabNavigator(
     Explore: {
       screen: ExplorePage,
       navigationOptions: {
-        tabBarIcon: <Icon name='flame' />
+        tabBarIcon: <Icon name='trophy' />
       }
     }, 
 

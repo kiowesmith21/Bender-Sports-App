@@ -56,7 +56,6 @@ async componentDidMount() {
           </Right>
         </Header>
 
-
         <Content>
         
             <Card style={styles.card}>
